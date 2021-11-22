@@ -1,0 +1,24 @@
+name: lucky_avram
+version: 0.0.1
+
+crystal: ">=1.0.0"
+
+authors:
+  - Paul Smith <paulcsmith0218@gmail.com>
+
+dependencies:
+  lucky_task:
+    github: luckyframework/lucky_task
+    version: ~> 0.1.0
+  lucky:
+    path: /Users/matthew/workspace/crystal/lucky
+  avram:
+    github: luckyframework/avram
+    version: ~> 0.21.0
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    version: ~> 0.14.2
+
+license: MIT
