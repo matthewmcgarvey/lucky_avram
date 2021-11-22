@@ -17,7 +17,8 @@ dependencies:
     github: luckyframework/lucky_task
     version: ~> 0.1.0
   lucky:
-    path: /Users/matthew/workspace/crystal/lucky
+    github: matthewmcgarvey/lucky
+    branch: extract-lucky_avram
   avram:
     github: luckyframework/avram
     version: ~> 0.21.0
