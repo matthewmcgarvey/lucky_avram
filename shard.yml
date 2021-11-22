@@ -6,6 +6,12 @@ crystal: ">=1.0.0"
 authors:
   - Paul Smith <paulcsmith0218@gmail.com>
 
+targets:
+  lucky.gen.model:
+    main: src/precompiled_tasks/gen/model.cr
+  lucky.gen.resource.browser:
+    main: src/precompiled_tasks/gen/resource/browser.cr
+
 dependencies:
   lucky_task:
     github: luckyframework/lucky_task
@@ -20,5 +26,8 @@ development_dependencies:
   ameba:
     github: crystal-ameba/ameba
     version: ~> 0.14.2
+
+scripts:
+  postinstall: BUILD_WITHOUT_DEVELOPMENT=true script/precompile_tasks
 
 license: MIT

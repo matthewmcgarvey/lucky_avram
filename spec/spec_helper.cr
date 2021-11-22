@@ -1,5 +1,6 @@
 require "spec"
 require "../src/lucky_avram"
+require "../tasks/**"
 require "./support/**"
 
 Pulsar.enable_test_mode!
